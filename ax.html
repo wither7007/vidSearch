@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+        var my="hello"
+        function display(x){
+            console.log("display")
+            console.log(x.items)
+            my=x.items
+        }
+        axios.get('https://www.googleapis.com/youtube/v3/search?key=AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao&part=snippet&q=css&maxResults=10&publishedAfter=2021-12-09T00:02:55.740Z&publishedBefore=2021-12-09T00:02:55.740Z&order=relevance&videoDuration=any&type=video')
+            .then((response) => {
+                display(response.data);
+                // console.log(response.status);
+                // console.log(response.statusText);
+                // console.log(response.headers);
+                // console.log(response.config);
+            });
+        
+    console.log('--------------------------------------------------------')
+
+
+
+    </script>
+</body>
+
+</html>

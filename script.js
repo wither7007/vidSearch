@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  jimbo="steffes"
   var $pagination = $("#pagination"),
     totalRecords = 0,
     records = [],
@@ -11,24 +12,23 @@ $(document).ready(function () {
   var order = "relevance";
   var beforedate = new Date().toISOString();
   var afterdate = new Date().toISOString();
-  var maxResults=10
-
+  var maxResults = 10
   $("#beforedate").val(beforedate)
   $("#afterdate").val(afterdate)
 
-  $("#beforedate").change(function(){
-      beforedate = new Date(this.val()).toISOString()
-      $("#beforedate").val(beforedate)
-      afterdate = new Date(this.val()).toISOString()
-      $("#afterdate").val(afterdate)
+  $("#beforedate").change(function () {
+    beforedate = new Date(this.val()).toISOString()
+    $("#beforedate").val(beforedate)
+    afterdate = new Date(this.val()).toISOString()
+    $("#afterdate").val(afterdate)
   })
 
-  $("#afterdate").change(function(){
+  $("#afterdate").change(function () {
     afterdate = new Date(this.val()).toISOString()
     $("#afterdate").val(afterdate)
     beforedate = new Date(this.val()).toISOString()
     $("#beforedate").val(beforedate)
-})
+  })
 
   $("#duration").change(function () {
     duration = $(this).children("option:selected").val();
@@ -70,6 +70,7 @@ $(document).ready(function () {
 
   function apply_pagination() {
     $pagination.twbsPagination({
+
       totalPages: totalPages,
       visiblePages: 6,
       onPageClick: function (event, page) {
@@ -90,7 +91,7 @@ $(document).ready(function () {
   function generateRecords(recPerPage, nextPageToken) {
     var url2 = `https://www.googleapis.com/youtube/v3/search?key=${API_KEY}
     &part=snippet&q=${search}&maxResults=${maxResults}&pageToken=${nextPageToken}&publishedBefore=${beforedate}&publishedAfter=${afterdate}&order=${order}&videoDuration=${duration}&type=video`;
-    console.log("url2 is: " +url2)
+    console.log("url2 is: " + url2)
     $.ajax({
       method: "GET",
       url: url2,
@@ -107,8 +108,10 @@ $(document).ready(function () {
   }
 
   function displayVideos(data) {
+    // debugger
     recPerPage = data.pageInfo.resultsPerPage;
     nextPageToken = data.nextPageToken;
+    console.log("line 113")
     console.log(records);
     totalRecords = data.pageInfo.totalResults;
     totalPages = Math.ceil(totalRecords / recPerPage);
@@ -118,8 +121,11 @@ $(document).ready(function () {
     var videoData = "";
 
     $("#table").show();
-    debugger
+    // debugger
+    jimbo=[]
     data.items.forEach((item) => {
+      jimbo.push(`${item.id.videoId} - ${item.snippet.title}`)
+      // console.log(item.id.videoId)
       videoData = `
                     
                     <tr>
@@ -127,9 +133,11 @@ $(document).ready(function () {
                     <a target="_blank" href="https://www.youtube.com/watch?v=${item.id.videoId}">
                     ${item.snippet.title}</td>
                     <td>
-                    <img width="200" height="200" src="${item.snippet.thumbnails.high.url}"/>
                     </td>
+                    Mystuff
+                    <td class="myStuff" id="ms" >https://www.youtube.com/watch?v=${item.id.videoId}</td>
                     <td>
+                    
                     <a target="_blank" href="https://www.youtube.com/channel/${item.snippet.channelId}">${item.snippet.channelTitle}</a>
                     </td>
                     </tr>
@@ -138,5 +146,6 @@ $(document).ready(function () {
 
       $("#results").append(videoData);
     });
+    console.log(jimbo)
   }
 });

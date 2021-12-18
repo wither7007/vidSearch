@@ -1,0 +1,215 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "ZtMaunnuDi-RQxq1fe1TDh9M9W0",
+  "regionCode": "US",
+  "pageInfo": {
+    "totalResults": 71,
+    "resultsPerPage": 6
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "a4pvGiVzZMl1BhAhfHI4LtwB_Aw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XRSJY0exiuI"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-08T22:02:26Z",
+        "channelId": "UCYoNysnoJRt1fdg8BwfEA3g",
+        "title": "Current Affairs Paper in CSS | #css |",
+        "description": "Dear Aspirants , In this video I disscussed in detail , how you prepare well about Current Affairs in CSS. #current_affairs #current_affairs_paper_in_css.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XRSJY0exiuI/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XRSJY0exiuI/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XRSJY0exiuI/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ansir Saghir Khan CSS PMS Mentor",
+        "liveBroadcastContent": "live",
+        "publishTime": "2021-12-08T22:02:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zlWcH42I7OCxly1eCRVQQkrbx6A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AgcLM2TYAPM"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-08T22:02:32Z",
+        "channelId": "UCPAvM6zQHcILN_TD2UhUnVg",
+        "title": "Landing Page Animata - HTML CSS JS GSAP - Lez 2",
+        "description": "Impara a creare una Landing Page Animata con HTML, CSS, JS e GSAP. Esercitati con questa serie di brevi video. Installazione CDN Tailwind Iscriviti al mio ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AgcLM2TYAPM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AgcLM2TYAPM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AgcLM2TYAPM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "alessandro cuoghi",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-08T22:02:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kEILnMNj9SMrv9E_ARagvDs3ns8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "53KWMStEuC4"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-08T21:57:50Z",
+        "channelId": "UC_CmsWpRPZWKtAO_Dt1ZbIQ",
+        "title": "HTML CSS S├⌐ance  DU 23-11-21",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/53KWMStEuC4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/53KWMStEuC4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/53KWMStEuC4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mr OMAR IDRISSI",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-08T21:57:50Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JWqSsCo1U8X2kqaPymFyuOObirE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KqNtyV4leBo"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-08T21:57:39Z",
+        "channelId": "UC_CmsWpRPZWKtAO_Dt1ZbIQ",
+        "title": "HTML CSS S├ëANCE DU 03 12 2021 Mr Adil",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KqNtyV4leBo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KqNtyV4leBo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KqNtyV4leBo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mr OMAR IDRISSI",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-08T21:57:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OfCO9ro5WgH1fo8GRWkLfGdecnI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gnVwtszCYJc"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-08T14:48:55Z",
+        "channelId": "UCpurJj2FfLKX0dze0t0A9Yg",
+        "title": "A parking spot in Hong Kong sold for almost $1 million",
+        "description": "If you think parking is expensive in your area, you'll be shocked by how much a spot can cost in Hong Kong. Γ₧ñ Prince YahweTV channel is a thriving online ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gnVwtszCYJc/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gnVwtszCYJc/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gnVwtszCYJc/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Prince YahweTV",
+        "liveBroadcastContent": "upcoming",
+        "publishTime": "2021-12-08T14:48:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dPIvbZVSRTRnFLGalCAUqP6HB4A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uhncFetJNnk"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-08T22:00:16Z",
+        "channelId": "UCN2awY0-rwElaTw_yEnkqOw",
+        "title": "Mercado de Tecnologia e Programa├º├úo Vale a Pena? GRANDE DEMANDA e An├ílise de Mercado em TI",
+        "description": "Aprenda por que o profissional de tecnologia da informa├º├úo ├⌐ um dos mais requisitados atualmente, melhor remunerado e aprenda como voc├¬ pode dar seus ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uhncFetJNnk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uhncFetJNnk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uhncFetJNnk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Feature Code",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-08T22:00:16Z"
+      }
+    }
+  ]
+}
