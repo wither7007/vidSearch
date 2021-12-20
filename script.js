@@ -122,9 +122,11 @@ $(document).ready(function () {
 
     $("#table").show();
     // debugger
+    // https://www.googleapis.com/youtube/v3/videos?id=9bZkp7q19f0&part=contentDetails&key=AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao
     jimbo=[]
     data.items.forEach((item) => {
       jimbo.push(`${item.id.videoId} - ${item.snippet.title}`)
+      // debugger
       // console.log(item.id.videoId)
       videoData = `
                     
