@@ -39,7 +39,6 @@ $(document).ready(function () {
 
   $("#myForm").submit(function (e) {
     e.preventDefault();
-
     search = $("#search").val();
 
     //beforedate = new Date($("#beforedate").val()).toISOString();
